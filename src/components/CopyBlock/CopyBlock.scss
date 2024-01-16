@@ -1,0 +1,15 @@
+.copy {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+
+    &__text {
+        margin-right: 572px;
+        margin-left: 8px;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 16px;
+    }
+}

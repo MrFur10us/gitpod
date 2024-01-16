@@ -1,0 +1,79 @@
+.develop {
+  text-align: center;
+  &__title {
+    margin-top: 176px;
+    margin-bottom: 57px;
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 63.72px;
+  }
+
+  &__img {
+    margin-top: 100px;
+  }
+}
+
+.item {
+  width: 384px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #fff;
+  text-align: left;
+  &__top {
+    margin-left: 24px;
+    margin-bottom: 14px;
+  }
+
+  &__title {
+    padding-top: 24px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    margin-right: 21px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 329px;
+  }
+
+  &__main {
+    display: flex;
+  }
+
+  &__img {
+    margin-left: 24px;
+    margin-right: 12px;
+  }
+
+  &__name {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  &__job {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+}
